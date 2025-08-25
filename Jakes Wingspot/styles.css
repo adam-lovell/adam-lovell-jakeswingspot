@@ -1,0 +1,108 @@
+/* Sign-up form styles */
+.signup-form {
+    max-width: 400px;
+    margin: 0 auto 24px auto;
+    text-align: left;
+}
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+.signup-form input[type="password"] {
+    margin-bottom: 16px;
+}
+.signup-form button[type="submit"] {
+    width: 100%;
+    background: #f0892f;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.signup-form button[type="submit"]:hover {
+    background: #d97706;
+}
+html {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #f0892f;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+h2 {
+    color: #f0892f;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    margin: 20px auto;
+}
+
+img {
+    float: right;
+    margin-left: 15px; /* optional, adds space between text and image */
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    max-width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    margin: 20px auto;
+    max-width: 85%;
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 6px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+nav a:hover {
+    background-color: #555;
+}
+
+a {
+    color: #fff;
+}
